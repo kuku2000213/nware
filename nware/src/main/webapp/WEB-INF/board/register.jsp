@@ -27,6 +27,9 @@
 	
 </script>
 <body>
+	<header id="header">
+		<%@ include file = "../layout/header.jsp" %> 	
+	</header>
 	<h2>Register</h2>
 	
 	<form:form modelAttribute="board" action = "register">

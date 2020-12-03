@@ -8,6 +8,9 @@
 <title>Success</title>
 </head>
 <body>
+	<header id="header">
+		<%@ include file = "../layout/header.jsp" %> 	
+	</header>
 	<h2>${msg }</h2>
 </body>
 </html>

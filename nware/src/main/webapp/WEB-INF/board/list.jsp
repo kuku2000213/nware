@@ -11,7 +11,9 @@
 <title>List</title>
 </head>
 <body>
-
+	<header id="header">
+		<%@ include file = "../layout/header.jsp" %> 	
+	</header>
 	<h2>List</h2>
 	<a href = "register">New</a>
 	<table border = "1">

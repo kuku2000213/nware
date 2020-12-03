@@ -8,7 +8,9 @@
 <title>Access Error</title>
 </head>
 <body>
-	
+	<header id="header">
+		<%@ include file = "../layout/header.jsp" %> 	
+	</header>
 	<h3><c:out value = "${msg }"/></h3>
 
 </body>
